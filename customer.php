@@ -104,7 +104,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 	<!-- customer form html start  -->
 	<div class="form-container">
 		<div class="field-container">
-			<!-- <form method="POST" action="<?php echo $_SERVER['PHP_SELF']; ?>" class="customer-form" enctype="multipart/form-data">
+			<form method="POST" action="<?php echo $_SERVER['PHP_SELF']; ?>" class="customer-form" enctype="multipart/form-data">
 				<h2 class="form-field" style="font-weight: bold; color:white; text-align:center"> Customer Form <i class="bi bi-card-checklist"></i></h2>
 				<hr style="height:4px; background-color: Red;">
 				<p style="font-weight: bold; color:white">Enter Your Full Name: </p>
@@ -161,7 +161,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 					<input type="password" maxlength="30" class="form-control" id="password" name="password" required="required" />
 				</div>
 				<div class="form-field mb-3 ">
-				
+				<p style="font-weight: bold; color:white">Confirm Password:</p>
 					<input type="password" maxlength="30" class="form-control" id="confirmpassword" name="confirmpassword"  required="required" />
 				</div>
 				<div class="form-field mb-3">
@@ -172,7 +172,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 					<button class="customer-submit mb-1" type="submit">Submit</button>
 					<button class="customer-submit mb-1" type="reset">Reset</button>
 				</div>
-			</form> -->
+			</form>
 		</div>
 	</div>
 	<!-- customer form html End  -->
