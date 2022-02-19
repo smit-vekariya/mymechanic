@@ -1,0 +1,1032 @@
+/*******************************/
+/********* Navbar CSS *********/
+/*******************************/
+
+.nav-background{
+    background-color:rgb(231, 231, 231) ;
+}
+
+.nav-item .my-link{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 17px;
+    margin: 0px 8px;
+    padding: 5px 5px;
+    border-radius: 5px;
+    transition-property: all;
+    transition-duration: 0.4s;
+
+}
+.nav-item .my-link:hover{
+    background-color: #cc1a2c ;
+    color: white;
+}
+
+
+.appoitment-button .btn.btn-custom {
+    font-weight: 600;
+    font-size: 17px;
+    width: 100%;
+    color: #ffffff;
+    border: 0px;
+    border-radius: 100px;
+    background-color: #0044ff;
+    padding: 8px 20px;
+    box-shadow: inset 0 0 0 0 rgb(31, 30, 30);
+    transition-property: all;
+    transition-duration: 0.5s;
+
+}
+.appoitment-button .btn:hover {
+    color: #ffffff;
+    background: rgb(31, 30, 30);
+    box-shadow: inset 200px 0 0 0 rgb(31, 30, 30);
+}
+
+@media screen  and (max-width: 985px ){ 
+
+.navbar-collapse{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.navbar-nav{
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#navbarSupportedContent .me-auto{
+    margin-right: 0px!important;
+}
+
+.navbar-nav li{
+    margin: 5px 5px
+}
+
+}
+
+/*******************************/
+/********* About CSS *********/
+/*******************************/
+.about {
+    position: relative;
+    width: 100%;
+    padding: 45px 0 15px 0;
+}
+
+.about .section-header {
+    margin-bottom: 30px;
+    margin-left: 0;
+}
+
+.about .section-header p{
+    color: rgb(27, 27, 27);
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 20px;
+}
+.about .section-header h2{
+   color: #cc1a2c;
+   font-weight: bold;
+}
+
+.about .about-img img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    box-shadow: 8px 8px 11px rgb(168, 168, 168);
+
+}
+
+.about .about-content {
+    margin-bottom: 30px;
+}
+
+.about .about-content ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-bottom: 25px;
+}
+
+.about .about-content ul li {
+    margin-bottom: 5px;
+}
+
+.about .about-content ul li i {
+    margin-right: 8px;
+    color: #E81C2E;
+}
+
+
+/*******************************/
+/********* category card CSS *********/
+/*******************************/
+.service .section-header p {
+    margin-bottom: 2px;
+    color: rgb(68, 58, 58);
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 20px;
+
+
+}
+.service .section-header h2 {
+    color: #cc1a2c;
+    font-weight: bold;
+    transition-property: all;
+    transition-duration: 0.1s;
+}
+.service .section-header h2:hover {
+    letter-spacing: 2px;
+}
+
+.service {
+    position: relative;
+    width: 100%;
+    padding: 45px 0 0 0;
+}
+
+.service .service-item {
+    position: relative;
+    width: 100%;
+    align-items: center;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 45px;
+    background-color: rgb(247, 247, 247);
+    box-shadow: 4px 5px 11px rgb(184, 184, 184);
+    border-radius: 10px;
+}
+
+
+
+.service .service-item img{
+  height: 100px;
+  width: 100px;
+  transition-property: all;
+  transition-duration: 0.3s;
+}
+
+.service .service-item img:hover{
+    height: 110px;
+  width: 110px;
+  cursor: pointer;
+}
+
+
+
+.service .service-item h3 {
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.service .service-item p {
+    margin: 0;
+    text-align: center;
+    min-height: 95px;
+}
+
+
+/*******************************/
+/******* Csutomer review *******/
+/*******************************/
+.testimonial {
+    position: relative;
+    width: 100%;
+    padding: 45px 0;
+}
+.testimonial .section-header p{
+    margin-bottom: 2px;
+    color: rgb(68, 58, 58);
+    text-decoration: underline;
+    font-size: 20px;
+    font-weight: bold;
+}
+.testimonial .section-header h2{
+    color: #cc1a2c;
+    font-weight: bold;
+    transition-property: all;
+    transition-duration: 0.1s;
+}
+.testimonial .section-header h2:hover{
+letter-spacing: 2px;
+}
+.testimonial .testimonials-carousel {
+    display: flex;
+    flex-direction: row;
+    margin-top: 12px;
+    position: relative;
+    width: calc(100% + 30px);
+    margin: 0 -15px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.testimonial .testimonial-item {
+    margin: 12px 8px;
+    position: relative;
+    width: 330px;
+    padding: 10px 10px;
+    display: flex;
+    background-color: #ffffff;
+    box-shadow: 4px 5px 11px rgb(184, 184, 184);
+    border-radius: 10px;
+
+    transition-property: all;
+    transition-duration: 0.1s;
+}
+.testimonial .testimonial-item:hover{
+background-color: rgb(241, 241, 241);
+}
+
+.testimonial .testimonial-item img {
+    width: 80px;
+    height: 80px;
+    border-radius: 80px;
+    transform: scale(.8);
+    transition: 2s;
+}
+
+.testimonial .owl-item.center .testimonial-item img {
+    transform: scale(1);
+}
+
+.testimonial .testimonial-text {
+    width: calc(100% - 100px);
+    padding-left: 20px;
+}
+
+.testimonial .testimonial-text h3 {
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+}
+
+.testimonial .testimonial-text h4 {
+    color: #777777;
+    font-size: 15px;
+    font-weight: 400;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.testimonial .testimonial-text p {
+    margin: 0;
+    text-align: center;
+    font-weight: 700;
+    color: #777777;
+}
+
+
+
+.testimonial .owl-dots {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.testimonial .owl-dot {
+    display: inline-block;
+    margin: 0 5px;
+    width: 12px;
+    height: 12px;
+    border-radius: 10px;
+    background: #dddddd;
+}
+
+.testimonial .owl-dot.active {
+    background: #E81C2E;
+}
+
+/*******************************/
+/********** Facts CSS **********/
+/*******************************/
+.facts {
+    position: relative;
+    width: 100%;
+    min-height: 200px;
+    margin: 25px 5px;
+    display: flex;
+    align-items: center;
+    background: #ffffff;
+}
+.facts .section-header p{
+    color: rgb(68, 58, 58);
+    margin-bottom: 2px;
+    text-decoration: underline;
+    font-size: 20px;
+    font-weight: bold;
+}
+.facts .section-header h2{
+    color: #cc1a2c;
+    font-weight: bold;
+    transition-property: all;
+    transition-duration: 0.1s;
+}
+.facts .section-header h2:hover{
+letter-spacing: 2px;
+}
+.facts .row{
+    margin: 2px 5px;
+    background-color: #cc1a2c;
+    box-shadow: 4px 5px 5px rgb(112, 112, 112);
+    border-radius: 10px;
+}
+
+.facts .facts-item {
+    display: flex;
+    flex-direction: row;
+    margin: 25px 0px;
+}
+
+.facts .facts-item i {
+    margin-top: 15px;
+    font-size: 45px;
+    color: #ffffff;
+    transition-property: all;
+    transition-duration: 0.1s;
+}
+.facts .facts-item i:hover {
+    font-size: 55px;
+    cursor: pointer;
+}
+
+.facts .facts-text {
+    padding-left: 20px;
+}
+
+.facts .facts-text h3 {
+    position: relative;
+    display: inline-block;
+    color: #1a1a1a;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.facts .facts-text h3::after {
+    position: absolute;
+    content: "+";
+    top: 0px;
+    right: -25px;
+    color: #1a1a1a;
+    font-size: 30px;
+    font-family: "Font Awesome 5 Free";
+    font-weight: bolder;
+}
+
+.facts .facts-text p {
+    color: #1a1a1a;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0;
+}
+
+
+/*******************************/
+/********* Footer CSS **********/
+/*******************************/
+.footer {
+    position: relative;
+    margin-top: 80px;
+    padding-top: 50px;
+    padding-bottom: 0px;
+    background: #cc1a2c;
+}
+
+.footer .footer-contact,
+.footer .footer-link,
+.footer .footer-newsletter {
+    position: relative;
+    margin-bottom: 45px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.footer .footer-contact h2,
+.footer .footer-link h2,
+.footer .footer-newsletter h2 {
+    margin-bottom: 30px;
+    font-size: 29px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #1a1a1a;
+}
+
+.footer .footer-link a {
+    display: block;
+    text-decoration: none;
+    margin-bottom: 10px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 500;
+    transition: .3s;
+}
+
+
+
+.footer .footer-link a:hover {
+    letter-spacing: 1px;
+}
+
+.footer .footer-contact p i {
+    width: 25px;
+}
+
+.footer .footer-social {
+    position: relative;
+    margin-top: 20px;
+    display: flex;
+}
+
+.footer .footer-social a {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #202C45;
+    background: #ffffff;
+    border-radius: 40px;
+    margin-right: 5px;
+    transition: .5s;
+}
+
+.footer .footer-social a:last-child {
+    margin: 0;
+}
+
+.footer .footer-social a:hover {
+    color: #ffffff;
+    background: #000000;
+}
+
+.footer .footer-newsletter form {
+    position: relative;
+    width: 100%;
+}
+
+.footer .footer-newsletter input {
+    margin-bottom: 15px;
+    height: 45px;
+    background: transparent;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+}
+
+.footer .footer-newsletter label {
+    margin-top: 5px;
+    color: #777777;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.footer .footer-newsletter .btn.btn-custom {
+    width: 100%;
+    color: #1b1b1b;
+    background: #ffffff;
+    word-spacing: 5px;
+    transition-property: all;
+    transition-duration: 0.3s;
+}
+.footer .footer-newsletter .btn.btn-custom:hover{
+background-color: #a0a0a0;
+}
+
+
+.footer .copyright {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.footer .copyright p {
+    color: #ffffff;
+}
+
+.footer .copyright p a {
+    color: #1a1a1a;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.footer .copyright p a:hover {
+    color: #ffffff;
+}
+
+.footer-logo{
+    margin-top: 5px;
+    border-radius: 15px;
+    height: 170px;
+    width: 263px;
+    padding: 20px 20px;
+    background-color: white;
+    transition-property: all;
+    transition-duration: 0.2s;
+}
+.footer-logo:hover{
+    padding: 15px 14px;
+    cursor: pointer;
+}
+
+
+
+/***************************************************************************************************/
+/***********************************************ABOUT PAGE CSS *************************************/
+/****************************************************************************************************/
+
+
+
+
+/*******************************/
+/******* Page Header CSS *******/
+/*******************************/
+.page-header {
+    position: relative;
+    margin-bottom: 45px;
+    padding: 90px 0;
+    text-align: center;
+    background: #cc1a2c;
+    border-top: 1px dotted #ffffff;
+   
+}
+
+.page-header h2 {
+    position: relative;
+    color: #ffffff;
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+    transition-property: all;
+    transition-duration: 0.2s;
+}
+.page-header h2:hover{
+    letter-spacing: 5px;
+
+}
+
+
+
+@media (max-width: 991.98px) {
+    .page-header {
+        padding: 60px 0;
+    }
+    
+    .page-header h2 {
+        font-size: 45px;
+    }
+    
+}
+
+@media (max-width: 767.98px) {
+    .page-header {
+        padding: 45px 0;
+    }
+    
+    .page-header h2 {
+        font-size: 35px;
+    }
+    
+}
+/***************************************************************************************************/
+/***********************************************CONTACT PAGE CSS *************************************/
+/****************************************************************************************************/
+.location .section-header h2{
+    color: #cc1a2c;
+    font-weight: bold;
+    transition-property: all;
+    transition-duration: 0.3s;
+    margin-bottom: 30px;
+}
+.location .section-header h2:hover{
+    letter-spacing: 2px ;
+}
+.location .section-header p{
+    color: #cc1a2c;
+    text-decoration: underline;
+    font-weight: 700;
+    font-size: 20px;
+    margin: 2px 5px;
+}
+.location-text h3{
+color: #cc1a2c;
+font-weight: 800;
+font-size: 18px;
+transition-property: all;
+transition-duration: 0.2s;
+}
+
+.location-text h3:hover{
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.location-text h3 i{
+    font-size: 30px;
+    color: #E81C2E;
+    cursor: pointer;
+}
+.location-text p i{
+    font-size: 20px;
+    font-weight: bolder;
+    color: #E81C2E;
+}
+
+.location-text p{
+color: black;
+font-weight: 500;
+margin-bottom: 2px;
+}
+
+.location {
+    position: relative;
+    width: 100%;
+    padding: 45px 0;
+}
+
+.location .location-item {
+    display: flex;
+    margin-bottom: 30px;
+    padding: 15px 15px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 4px 4px 10px rgb(170, 170, 170);
+}
+
+.location .location-text {
+    padding-left: 15px;
+
+}
+
+.location .location-form {
+    padding: 45px 30px;
+    background: rgb(51, 51, 51);
+    border-radius: 5px;
+}
+
+.location .location-form h3 {
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.location .location-form .control-group {
+    margin-bottom: 15px;
+}
+
+.location .location-form .form-control {
+    height: 45px;
+    color: #000000;
+    padding: 0 15px;
+    border-radius: 5px;
+    border: 1px solid #ffffff;
+    background: white;
+}
+
+.location .location-form textarea.form-control {
+    height: 120px;
+    padding: 15px;
+}
+
+.location .location-form .form-control::placeholder {
+    color: #5a5a5a;
+    opacity: 1;
+}
+
+.location .location-form .form-control:-ms-input-placeholder,
+.location .location-form .form-control::-ms-input-placeholder {
+    color: #ffffff;
+}
+
+.location .location-form .btn.btn-custom {
+    width: 100%;
+    color: #1b1b1b;
+    background: #ffffff;
+    font-weight: bold;
+    word-spacing: 5px;
+    transition-property: all;
+    transition-duration: 0.2s;
+}
+
+.location .location-form .btn.btn-custom:hover {
+    background-color: #b6b6b6;
+}
+/***************************************************************************************************/
+/****************************************Customer & Garage owner Login *************************************/
+/****************************************************************************************************/
+.form-container {
+    margin: 50px 5px;
+}
+
+.field-container {
+    margin: auto;
+    max-width: 43rem;
+    background-color: rgb(51, 51, 51);
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+
+form h2 {
+    transition-property: all;
+    transition-duration: 0.2s;
+}
+
+form h2:hover {
+    letter-spacing: 2px;
+}
+
+.customer-form {
+    margin: auto;
+    max-width: 40rem;
+
+
+}
+
+.form-field-merge {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.customer-submit {
+    margin: 0px 2px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    color: #1b1b1b;
+    background-color: #b6b6b6;
+    font-weight: bold;
+    max-width: 18rem;
+    padding: 5px 5px;
+    transition-property: all;
+    transition-duration: 0.2s;
+}
+
+.customer-submit:hover {
+    background-color: white;
+}
+
+/***************************************************************************************************/
+/****************************************Customer & garage owner profile update *************************************/
+/****************************************************************************************************/
+
+.profile-container {
+    margin: 50px 5px;
+
+}
+
+#customerphoto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#customerphoto img {
+    height: 125px;
+    width: 125px;
+    overflow: auto;
+    border: 4px solid white;
+}
+#customerphoto img:hover{cursor: pointer;}
+#customerphoto>input{display: none;}
+
+.profile-field-container {
+    margin: auto;
+    max-width: 43rem;
+    background-color: rgb(51, 51, 51);
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+
+form h2 {
+    transition-property: all;
+    transition-duration: 0.2s;
+}
+
+form h2:hover {
+    letter-spacing: 2px;
+}
+
+.profile-form {
+    margin: auto;
+    max-width: 40rem;
+
+
+}
+
+.profile-field-merge {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.customer-update {
+    margin: 0px 2px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    color: #1b1b1b;
+    background-color: #b6b6b6;
+    font-weight: bold;
+    max-width: 18rem;
+    padding: 5px 5px;
+    transition-property: all;
+    transition-duration: 0.2s;
+}
+
+
+.customer-update:hover {background-color: white;}
+
+/* ---------------------------------------------------------------------------------------------
+---------------------------------------Category Page----------------------------------------------
+--------------------------------------------------------------------------------------------- */
+
+/*******************************/
+/********* service booking CSS **********/
+/*******************************/
+.my-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.service-card{
+    min-height: 250px;
+    margin: 10px 10px;
+    border-radius: 3px;
+    background-color: rgb(247, 247, 247);
+    box-shadow: 4px 4px 10px rgb(170, 170, 170);
+    border: none;
+
+}
+
+.service-img-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    justify-content: center;
+}
+.service-img-div img{
+    height: 140px;
+    width: 140px;
+    margin: 5px;
+    transition-property: all;
+  transition-duration: 0.2s;
+}
+.service-img-div img:hover{
+    height: 130px;
+  width: 130px;
+  cursor: pointer;
+}
+.service-title-des{
+    padding: 10px;
+}
+.service-body-div{
+    min-height: 248px;
+}
+.sub-service-div p{
+    font-size: 14px;
+    font-weight: 500;
+    margin: 5px 10px;
+    
+}
+.sub-service-div p i{
+    color: rgb(0, 194, 0);
+    font-size: 14px;
+    font-weight: bolder;
+}
+.service-card-buttons{
+    margin: 10px 10px;
+    float: right;
+}
+/* ---------------------------------------------------------------------------------------------
+---------------------------------------Garages Page----------------------------------------------
+--------------------------------------------------------------------------------------------- */
+
+/*******************************/
+/********* Garage View Card CSS **********/
+/*******************************/
+.garage-card{
+    padding: 10px 10px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 11px rgb(32, 32, 32);
+    border-radius: 15px;
+
+}
+.garage-card-body{
+    padding: 5px 10px;
+}
+#popular-item{
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+    background-color: rgb(0, 100, 0);
+}
+.garage-buttons{
+    padding: 0px 0px;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+}
+.garage-container{
+    max-width: 100%;
+}
+/* Garage Label css ---------------------------------------------------------- */
+
+.garage-label, .garage-body{
+    border-radius: 15px;
+    background-color: rgb(243, 161, 161);
+}
+.garage-card-header{
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+/* ---------------------------------------------------------------------------------------------
+-----------------------------------Booking Card CARD----------------------------------------------
+--------------------------------------------------------------------------------------------- */
+.no-margin{
+    margin: 1px 1px;
+
+}
+.small-text{
+    margin: 1px 1px;
+    font-size: 12px;
+}
+.booking-img-div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.booking-img-div img{
+    margin: 5px;
+    height: 100px;
+    width: 100px;
+}
+#status-button-placed{
+    border-radius: 15px;
+    font-size: 12px;
+    height: 21px;
+    width: 70px;
+    padding: 0px 5px;
+    color: white;
+    background-color: rgb(0, 81, 255);
+}
+#status-button-confirm{
+    border-radius: 15px;
+    font-size: 12px;
+    height: 21px;
+    width: 70px;
+    padding: 0px 5px;
+    color: white;
+    background-color: rgb(8, 102, 0);
+
+}
+#status-button-cancel{
+    border-radius: 15px;
+    font-size: 12px;
+    height: 21px;
+    width: 70px;
+    padding: 0px 5px;
+    color: white;
+    background-color: rgb(255, 0, 0);
+
+}
+#service-msg{
+    background-color: rgb(166, 228, 150);
+   max-height: 70px;
+}

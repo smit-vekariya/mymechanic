@@ -1,0 +1,168 @@
+/* ----------------------------------------------------------------------------------------------- */
+/* --------------------------------------INDEX PAGE--------------------------------------- */
+/* ----------------------------------------------------------------------------------------------- */
+
+/************************** */
+/*Total statictis section */
+/************************** */
+.statistic {
+}
+
+.statistic__item {
+    background: #fff;
+    border-radius: 5px;
+    padding: 20px 30px;
+    position: relative;
+    min-height: 180px;
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .statistic__item {
+        padding: 20px 10px;
+    }
+}
+
+.statistic__item h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #4272d7;
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .statistic__item h2 {
+        font-size: 22px;
+    }
+}
+
+.statistic__item .desc {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: rgba(128, 128, 128, 0.6);
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .statistic__item .desc {
+        font-size: 13px;
+    }
+}
+
+.statistic__item .icon {
+    display: inline-block;
+    position: absolute;
+    bottom: -50px;
+    right: -7px;
+}
+
+.statistic__item .icon i {
+    font-size: 180px;
+    color: #ffffff;
+    opacity: .2;
+    line-height: 1;
+    vertical-align: baseline;
+}
+
+.statistic__item--green {
+    background: #2c7226;
+}
+
+.statistic__item--orange {
+    background: #da7000;
+}
+
+.statistic__item--blue {
+    background: #00a0cc;
+}
+
+.statistic__item--red {
+    background: #ff293b;
+}
+.statistic__item--grey {
+    background: rgb(214, 214, 214);
+}
+
+/************************** */
+/*Total statictis2 section */
+/************************** */
+.statistic2 {
+}
+
+
+.statistic2 .statistic__item h2 {
+    color: rgb(0, 0, 0);
+}
+
+.statistic2 .statistic__item .desc {
+    color: rgb(0, 0, 0);
+}
+
+/************************** */
+/*Today statictis section */
+/************************** */
+
+.todaystatp{
+  color: black;
+  font-size: 16px;
+  font-weight: 500;
+}
+.todayi{
+font-size: 60px;
+}
+#todayi1{ color: #ff293b;}
+#todayi2{ color:#da7000;}
+#todayi3{ color: #00a0cc;}
+
+/* ----------------------------------------------------------------------------------------------- */
+/* --------------------------------------USER TABLE PAGE--------------------------------------- */
+/* ----------------------------------------------------------------------------------------------- */
+.user-select{
+    background-color:  #f3f3f3;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 7px;
+    
+}
+
+
+
+/* ----------------------------------------------------------------------------------------------- */
+/* --------------------------------------Category PAGE--------------------------------------- */
+/* ----------------------------------------------------------------------------------------------- */
+#catbuttons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+
+#updatemodal{
+    max-width: 500px;
+    display: block;
+    margin: auto;
+    border-radius: 20px;
+    border: 10px solid rgb(241, 241, 241);
+    background-color: rgb(241, 241, 241);
+    border-radius: 15px;
+}
+.my-header{
+    background-color: rgb(219, 219, 219);
+    border-radius: 5px;
+
+}
+#catphoto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#catphoto img {
+    height: 125px;
+    width: 125px;
+    overflow: auto;
+    border: 4px solid white;
+}
+#catphoto img:hover{cursor: pointer;}
+#catphoto>input{display: none;}
